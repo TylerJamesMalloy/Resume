@@ -1,0 +1,199 @@
+\documentclass{tccv}
+    \usepackage[english]{babel}
+    \renewcommand\part[1]{%
+        \twocolumn[%
+        \begin{center}
+        \vskip-\lastskip%
+        {\usekomafont{part} #1} \medskip\\
+        %{\fontfamily{pzc}\selectfont\Huge Curriculum vitae}
+        {\fontfamily{pzc}\selectfont\Large }
+        \bigskip
+        \end{center}]}
+    
+    \usepackage{etoolbox}
+    \AfterEndEnvironment{eventlist}{\vspace{-2\baselineskip}}
+    \AfterEndEnvironment{section}{\vspace{-2\baselineskip}}
+    \AfterEndEnvironment{subsubsection}{\vspace{-2\baselineskip}}
+    \AfterEndEnvironment{factlist}{\vspace{-1.5\baselineskip}}
+    \AfterEndEnvironment{yearlist}{\vspace{-1.5\baselineskip}}
+    
+    
+    \begin{document}
+    
+    \part{Tyler James Malloy}
+    
+    \section{Software skills}
+    
+    \begin{factlist}
+    
+    \item{Prof.}
+         {Python (Flask, Qt); Amazon AWS (Elastic Beanstalk, EC2, S3); C++ (Qt); MySql (sqlalchemy); HTML/CSS/JS; PERL; UI/UX; Robot Ethics Research; Server Maintenance and Upkeep}
+    
+    \item{Proj.}
+         {AI (Group Decision Theory) Machine Learning (PyTorch); Multimedia Data Processing (OpenCV, FFMPEG); Web Development (Angular 2, MongoDB)}
+    
+    \end{factlist}
+    
+    \section{Work experience}
+    
+    \begin{eventlist}
+    
+    \item{September 2017 - Present}
+         {University of British Colombia}
+         {Research Volunteer}
+    \end{eventlist}
+    
+    \begin{itemize}
+        \setlength{\itemsep}{1pt}
+        \setlength{\parsep}{0pt}
+        \item Front End web development using Angular 2 and UI/UX design for a   \href{http://valuecharts.cs.ubc.ca/register}{\underline{web application}} designed to visualize group decision problems.
+        
+        \item Developed a tutorial and analyzed results from case studies to enhance the user experience and simplify the learning process. \href{http://www.cs.ubc.ca/group/iui/VALUECHARTS/}{\underline{Project page}}
+    \end{itemize}
+    
+    \begin{eventlist}
+    \item{May 2017 - Present}
+         {University of British Colombia}
+         {Research Assistant/Web Developer}
+    \end{eventlist}
+    
+    \begin{itemize}
+        \setlength{\itemsep}{1pt}
+        \setlength{\parsep}{0pt}
+        \item Full-stack web development using Python Flask, MySQL, Amazon Elastic Beanstalk and S3 and UI/UX design for an ethics \href{www.your-views.org}{\underline{survey application}}
+        \item Developed survey questions, analyzed and visualized results from surveying, and assisted in writing academic papers. \href{https://github.com/TylerJamesMalloy/NReasonsLab}{\underline{Github Link}}
+    \end{itemize}
+    
+    \begin{eventlist}
+    \item{May - December 2016}
+         {University of Innsbruck}
+         {Lab Assistant/Software Developer}
+    \end{eventlist}
+    
+    \begin{itemize}
+        \setlength{\itemsep}{1pt}
+        \setlength{\parsep}{0pt}
+        \item Lead developer for a lab software for controlling hardware and other software used in quantum optics physics experiments. 
+        \item Managed a team of physics researchers occasionally contributing to the project.
+        \item Improved data visualization of physics experiment data with many parameters.
+    \end{itemize}
+    
+    \begin{eventlist}
+    \item{January - August 2015}
+         {McKesson Medical Imaging}
+         {Software Test Engineer}
+    \end{eventlist}
+    
+    \begin{itemize}
+        \setlength{\itemsep}{1pt}
+        \setlength{\parsep}{0pt}
+        \item Developed, maintained, and updated PERL performance testing scripts running on the frontend and backend of a web application. 
+        \item	Designed tools for the client technical support team to analyze user issues. 
+        \item	Assembled and maintained a lab server system hosting 60+ virtual machines running load, performance, and network balancing tests. 
+    
+    \end{itemize}
+    
+    \newpage
+    
+    \personal[www.github.com/TylerJamesMalloy]
+        {3205 West 39th Avenue, Vancouver BC}
+        {778-798-9506}
+        {tylerjmalloy@gmail.com}
+    
+    
+    \section{Public projects}
+    
+    \begin{yearlist}
+    
+    \item{Nov 2017}
+         {\href{https://github.com/TylerJamesMalloy/MedicalImageClassifier}{Medical Image Classifier}}
+         {Medical Image Classification using Convolutional Neural Networks}
+    
+    \item{Sept 2017}
+         {\href{https://github.com/TylerJamesMalloy/CogsResearchProposal}{Cognitive Modeling Experiment}}
+         {Simulated binocular rivalry using an cognitive model of vision}
+        
+    \item{May 2016}
+         {\href{https://github.com/jinichu/Triangulizer}{Video Triangulizer}}
+         {Low-polygon video/image processing using OpenCV and FFMPEG}
+         
+    \item{Jan 2016}
+         {\href{https://github.com/TylerJamesMalloy/PersonalWebsite}{Personal website}}
+         {Amazon AWS hosted personal website using Python Flask}
+    
+    
+    \end{yearlist}
+    
+    \section{Education}
+    
+    \begin{yearlist}
+    
+    \item{2013-2018}
+         {University of British Columbia}
+         {Double major: first in B.Sc Cognitive Systems: Computer Intelligence; second in B.A Philosophy 
+         \textbf{Major GPA:} 84\%, A-, 3.9/4.33 \qquad 
+         \textbf{Cumulative:} 79\%, B+, 3.6/4.33  }
+    
+    \iffalse
+    \item{Major GPA}
+         {(84\%, A-, 3.9/4.33 GPA)}
+         {}
+    \fi
+         
+    \end{yearlist}
+    
+    \section{Selected Courses}
+    
+    \subsubsection{Artificial Intelligence/Machine Learning}
+    \begin{factlist}
+    \item{}
+         {  \textbf{STAT 406} Statistical learning (Curr.)
+         \qquad
+            \textbf{CPSC 422} Adv. artificial intell. (Curr.)
+        \qquad
+            \textbf{CPSC 406} Comp. optimization (Curr.)
+        \qquad
+            \textbf{CPSC 340} Machine learning (91\% A+) 
+        \qquad
+            \textbf{CPSC 322} Intro artificial intell. (78\% B+)
+        \qquad
+            \textbf{CPSC 312} Functional/Logical prog (77\% B+)}
+    \end{factlist}
+    \subsubsection{Cognitive Systems}
+    \begin{factlist}
+    \item{}
+         {  \textbf{PSYC 365} (Cog. Neuroscience) (87\% A)
+         \qquad \qquad \qquad
+            \textbf{COGS 402} (Research in COGS) (87\% A)
+        \qquad \qquad \qquad
+            \textbf{COGS 303} (Research Methods) (88\% A)
+        \qquad \qquad \qquad
+            \textbf{COGS 300} (Designing COGS) (87\% A)
+        \qquad \qquad \qquad
+            \textbf{PHIL 320} (Logic: Computability) (88\% A)
+        \qquad \qquad \qquad
+            \textbf{PHIL 433} (Bio-medical Ethics) (77\% B+)}
+    \end{factlist}
+    
+    \iffalse
+    \subsubsection{Qualitative Courses}
+    \begin{factlist}
+    \item{}
+         {  \textbf{PHIL 451} (Phil. of the mind) 
+            \textbf{PHIL 441} (Phil. of perception)
+            \textbf{PHIL 433} (Bio/med ethics)}
+         
+    \end{factlist}
+    \fi
+    
+    \section{Awards and Acknowledgements}
+    
+    \begin{factlist}
+    \item{2014, 2016}{UBC Dean’s Honors List}
+    \item{2014-2016}{Faculty of Science International Student Scholarship.}
+    \item{2016}{Go Global International Learning Programs Award.}
+    \item{2013}{Outstanding International Student Award.}
+    \end{factlist}
+    
+    \end{document}
+    
